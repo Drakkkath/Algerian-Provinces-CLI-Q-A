@@ -6,7 +6,9 @@ provinces = [
   "Djelfa", "Jijel", "Setif", "Saida", "Skikda", "Sidi Bel Abbes", "Annaba", "Guelma",
   "Constantine", "Medea", "Mostaganem", "M'sila", "Mascara", "Ourgla", "Oran", "El Bayadh",
   "Illizi", "Bordj Bou Arreridj", "Boumerdas", "El Taref", "Tindouf", "Tissemsilt","El Oued", "Khenchela",
-  "Souk Ahras", "Tipaza", "Mila", "Ain Defla", "Naama", "Ain Temouchent", "Ghardaia", "Relizane"
+  "Souk Ahras", "Tipaza", "Mila", "Ain Defla", "Naama", "Ain Temouchent", "Ghardaia", "Relizane", "El M'ghair",
+  "El Menia", "Ouled Djellal", "Bordj Baji Mokhtar", "Béni Abbès", "Timimoun", "Touggourt",
+  "Djanet", "In Salah", "In Guezzam"
 ]
 #answer's inital value could be anything but 0
 answer = 3
