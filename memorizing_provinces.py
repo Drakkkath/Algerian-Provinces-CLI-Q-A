@@ -10,15 +10,18 @@ provinces = [
   "El Menia", "Ouled Djellal", "Bordj Baji Mokhtar", "Béni Abbès", "Timimoun", "Touggourt",
   "Djanet", "In Salah", "In Guezzam"
 ]
-#answer's inital value could be anything but 0
-answer = 3
-while int(answer)!= 0:
-  #x being the given province
-  x = random.choice(provinces)
-  print(x)
-  correct = provinces.index(x)+1
-  answer = int(input())
-  if answer == correct:
-    print("    Correct!\n")
-  elif answer!=0:
-    print("    Incorrect! It is ",correct,"\n")
+
+#Giving user_answer a random value except 0
+user_answer = 3
+while user_answer!= 0:
+  province = random.choice(provinces)
+  print(province)
+  correct_answer = provinces.index(province)+1
+  user_answer = int(input())
+
+  if user_answer == correct_answer:
+    print("\tCorrect!\n")
+    print("Press 0 to exit the program\n")
+  elif user_answer!=0:
+    print("\tIncorrect! It is ",correct_answer,"\n")
+  
